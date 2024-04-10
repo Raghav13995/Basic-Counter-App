@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rtg's Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#1f1b5c] gap-5">
+        <div class="border p-16 border-8 border-[#e33d88]">
+            <div class="font-medium text-[20px] text-[#e3e3e3] pb-6">Increament & Decreament</div>
+
+            <div class="bg-[#f2f7f4] flex flex-row text-[20px] rounded-sm gap-12 p-3 ">
+                <button onclick="decreament()" class="border-r-4 pr-5 pl-3">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                <div id="counter" class="font-bold">
+                    0
+                </div>
+                <button onclick="increament()" class="border-l-4  border-[##abb0ac] pr-5 pl-3">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
